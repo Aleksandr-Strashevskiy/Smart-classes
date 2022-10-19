@@ -21,8 +21,8 @@ namespace nDetail::nSmartModules {
             template< class Module >
             void Register( std::string_view strModuleName );
             /**
-             * \brief a
-             * \param strModuleName a
+             * \brief Deleting a class from the container
+             * \param strModuleName The string storing the name of the module
              */
             void Unregister( std::string_view strModuleName );
 
